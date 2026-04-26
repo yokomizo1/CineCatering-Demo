@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Demo publica do Quitute da Lili, sistema de gestao de catering para sets de filmagem." />
+    <title>Quitute da Lili | Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegacao principal">
+        <div class="brand">
+          <span class="brand-mark">QL</span>
+          <div>
+            <strong>Quitute da Lili</strong>
+            <span>Demo publica</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <button class="nav-item active" data-view="dashboard">Dashboard</button>
+          <button class="nav-item" data-view="financeiro">Financeiro</button>
+          <button class="nav-item" data-view="ordens">Ordens do Dia</button>
+          <button class="nav-item" data-view="estoque">Estoque</button>
+        </nav>
+        <div class="demo-note">
+          Dados ficticios. Sem backend, sem banco e sem integracoes reais.
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Operacao de catering para audiovisual</p>
+            <h1 id="page-title">Dashboard</h1>
+          </div>
+          <button id="simulate-action" class="primary-action">Simular acao</button>
+        </header>
+
+        <section id="view-root" class="view-root" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
