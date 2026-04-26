@@ -1,4 +1,4 @@
-# Quitute da Lili Demo
+# CineCatering Demo
 
 Demo publica e estatica do sistema de gestao operacional para catering em sets de filmagem.
 
@@ -8,7 +8,7 @@ Esta versao usa somente dados ficticios e roda sem backend, banco de dados, Open
 
 GitHub Pages:
 
-https://yokomizo1.github.io/Quitute-da-Lili-Demo/
+https://yokomizo1.github.io/CineCatering-Demo/
 
 ## O que a demo mostra
 
